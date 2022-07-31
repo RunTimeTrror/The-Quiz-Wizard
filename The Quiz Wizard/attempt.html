@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="attempt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Attempt the Quiz</title>
+</head>
+<body>
+    <div class="main">
+        <div class="quiz">
+            <h2>Select the Quiz you want to attempt</h2>
+            <h4>(the quizes are ordered from oldest to latest)</h4>
+            <ul id="listofquiz">
+                <!-- <li><button>Quiz 1</button></li>
+                <li><button>Quiz 2</button></li>
+                <li><button>Quiz 3</button></li>
+                <li><button>Quiz 4</button></li> -->
+            </ul>
+        </div>
+        <div class="currentquiz">
+            <h1 id="questionhead">Question</h1>
+            <p id="question">What is the answer of 2*7 ?</p>
+            <span><input type="radio" name="options" class="options" id="opt1">
+            <label id="a" for="opt1">Option 1</label></span>
+            <span><input type="radio" name="options" class="options"id="opt2">
+            <label id="b" for="opt1">Option 2</label></span>
+            <span><input type="radio" name="options" class="options"id="opt3">
+            <label id="c" for="opt1">Option 3</label></span>
+            <span><input type="radio" name="options" class="options"id="opt4">
+            <label id="d" for="opt1">Option 4</label></span>
+            <button id="savenext">Save & Next</button>
+            <button id="finish">Finish</button>
+            <!-- ------------------------------------------------------- -->
+        </div>
+        <div class="studentinfo">
+            <h1>Please fill the following form</h1>
+            <input id="stdname"type="text" placeholder="Enter your full name">
+            <input id="stdemail"type="email" placeholder="Enter your email">
+            <button id="start">Start Quiz</button>
+        </div>
+        <!-- --------------------------------------------------------------- -->
+        <div class="end">
+            <h1>Thanks for taking the quiz, Your response has been submitted</h1>
+        </div>
+    </div>
+    <script src="attempt.js"></script>
+</body>
+</html>

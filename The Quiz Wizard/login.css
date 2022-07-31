@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/memphis-blue-background-with-halftone-line-elements_1017-33622.jpg?size=626&ext=jpg&ga=GA1.2.1384644442.1657895879);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('calback.jpg');
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.481);
+    box-shadow: 10px 10px 25px black;
+}
+input{
+    margin: 0.5rem;
+    width: 27rem;
+    height: 2.5rem;
+    text-align: center;
+    border-radius: 1rem;
+    font-size:1.2rem;
+    box-shadow: 10px 10px 25px black;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin: 2rem;
+}
+button{
+    box-shadow: 10px 10px 25px black;
+    margin: auto;
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    background-color:rgba(0, 0, 255, 0.678);
+    color: white;
+    border-radius: 10rem;
+    font-size: 1.2rem;
+    margin-top:2rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgba(0, 0, 255);
+}
